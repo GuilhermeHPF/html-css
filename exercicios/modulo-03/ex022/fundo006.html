@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo de tela fixo</title>
     <style>
         body {
+            /*
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+            
+            Shorthand - Background
+
+            color > image > position > repeat > [size (por algum motivo ainda não esta funcionando)] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
         
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -30,6 +41,10 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque itaque, quis maiores molestias tempore mollitia a, ab maxime nostrum vel eum ea magnam vero facere qui iste, possimus nesciunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam delectus laudantium, impedit perspiciatis reprehenderit et aliquam ab vel voluptatum numquam ut. Cupiditate, temporibus libero quia nesciunt veritatis autem! Autem, obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ducimus, itaque ipsum maiores eveniet magnam cumque ullam soluta, at facilis aperiam minima reiciendis repellat veniam dicta sed facere illo ipsa!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque itaque, quis maiores molestias tempore mollitia a, ab maxime nostrum vel eum ea magnam vero facere qui iste, possimus nesciunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam delectus laudantium, impedit perspiciatis reprehenderit et aliquam ab vel voluptatum numquam ut. Cupiditate, temporibus libero quia nesciunt veritatis autem! Autem, obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ducimus, itaque ipsum maiores eveniet magnam cumque ullam soluta, at facilis aperiam minima reiciendis repellat veniam dicta sed facere illo ipsa!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque itaque, quis maiores molestias tempore mollitia a, ab maxime nostrum vel eum ea magnam vero facere qui iste, possimus nesciunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam delectus laudantium, impedit perspiciatis reprehenderit et aliquam ab vel voluptatum numquam ut. Cupiditate, temporibus libero quia nesciunt veritatis autem! Autem, obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ducimus, itaque ipsum maiores eveniet magnam cumque ullam soluta, at facilis aperiam minima reiciendis repellat veniam dicta sed facere illo ipsa!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque itaque, quis maiores molestias tempore mollitia a, ab maxime nostrum vel eum ea magnam vero facere qui iste, possimus nesciunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam delectus laudantium, impedit perspiciatis reprehenderit et aliquam ab vel voluptatum numquam ut. Cupiditate, temporibus libero quia nesciunt veritatis autem! Autem, obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ducimus, itaque ipsum maiores eveniet magnam cumque ullam soluta, at facilis aperiam minima reiciendis repellat veniam dicta sed facere illo ipsa!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque itaque, quis maiores molestias tempore mollitia a, ab maxime nostrum vel eum ea magnam vero facere qui iste, possimus nesciunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam delectus laudantium, impedit perspiciatis reprehenderit et aliquam ab vel voluptatum numquam ut. Cupiditate, temporibus libero quia nesciunt veritatis autem! Autem, obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ducimus, itaque ipsum maiores eveniet magnam cumque ullam soluta, at facilis aperiam minima reiciendis repellat veniam dicta sed facere illo ipsa!</p>
     </main>
 </body>
